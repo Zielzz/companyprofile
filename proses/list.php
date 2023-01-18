@@ -85,7 +85,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">COMPANY</a></h1>
+      <h1 class="logo me-auto"><a style="text-decoration:none" href="../index.html">COMPANY</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -341,7 +341,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
     </div>
   </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
+ 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
