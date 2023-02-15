@@ -74,7 +74,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto active" href="about.php">About</a></li>
-          <li><a class="nav-link scrollto" href="proses/list.php">Data Siswa</a></li>
+          <li><a class="nav-link scrollto" href="../dashboard/proses/list.php">Data Siswa</a></li>
           <li><a class="getstarted scrollto" href="#">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

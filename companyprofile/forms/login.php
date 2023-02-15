@@ -61,19 +61,19 @@
       <div class="text-center mb-3">
         <p>Sign in with:</p>
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-facebook-f"></i>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-google"></i>
+          <a href="#"><i class="fab fa-google"></i></a>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-twitter"></i>
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-github"></i>
+          <a href="#"><i class="fab fa-github"></i></a>
         </button>
       </div>
 
@@ -118,19 +118,19 @@
       <div class="text-center mb-3">
         <p>Sign up with:</p>
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-facebook-f"></i>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-google"></i>
+          <a href="#"><i class="fab fa-google"></i></a>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-twitter"></i>
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-github"></i>
+          <a href="#"><i class="fab fa-github"></i></a>
         </button>
       </div>
 

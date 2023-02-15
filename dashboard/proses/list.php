@@ -10,23 +10,23 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
-  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../../companyprofile/assets/img/favicon.png" rel="icon">
+  <link href="../../companyprofile/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   
-  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assets/css/style.css" rel="stylesheet">
+  <link href="../../companyprofile/assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha - v4.10.0
@@ -42,17 +42,17 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     	<!-- CSS Files -->
-	<link rel="stylesheet" href="../bootstrap.min.css">
-	<link rel="stylesheet" href="../atlantis.min.css">
+	<link rel="stylesheet" href="../../companyprofile/bootstrap.min.css">
+	<link rel="stylesheet" href="../../companyprofile/atlantis.min.css">
 	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link rel="stylesheet" href="../demo.css">
+	<link rel="stylesheet" href="../../companyprofile/demo.css">
 	
 	<!-- Fonts and icons -->
-	<script src="../webfont.min.js"></script>
+	<script src="../../companyprofile/webfont.min.js"></script>
 	<script>
 		WebFont.load({
 			google: {"families":["Lato:300,400,700,900"]},
-			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['../assets2/css/fonts.min.css']},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['../../companyprofile/assets2/css/fonts.min.css']},
 			active: function() {
 				sessionStorage.fonts = true;
 			}
@@ -69,7 +69,7 @@
 
 <?php
 
-include('../config/connection.php');
+include('../../companyprofile/config/connection.php');
 
 ///MEMED GANTENG///
 
@@ -85,14 +85,14 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
   <header id="header" class="bg-dark ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a style="text-decoration:none" href="../index.php">SCHOOL</a></h1>
+      <h1 class="logo me-auto"><a style="text-decoration:none" href="../../companyprofile/index.php">SCHOOL</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="../index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="../about.php">About</a></li>
+          <li><a class="nav-link scrollto" href="../../companyprofile/index.php">Home</a></li>
+          <li><a class="nav-link scrollto" href="../../companyprofile/about.php">About</a></li>
           <li><a class="nav-link scrollto active" href="list.php">Data Siswa</a></li>
           <li><a style="text-decoration:none" class="getstarted scrollto" href="#">Login</a></li>
         </ul>
@@ -154,7 +154,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
                     <td><?php echo $result['email']?></td>
                     <td>
                         <center>
-                    <?php echo "<img src='../images/$result[foto]' width='35' height='40'>";
+                    <?php echo "<img src='../../companyprofile/images/$result[foto]' width='35' height='40'>";
                      ?></center>
                      </td>
                         <td>
@@ -310,33 +310,33 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="../assets/vendor/aos/aos.js"></script>
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../../companyprofile/assets/vendor/aos/aos.js"></script>
+  <script src="../../companyprofile/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../companyprofile/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../../companyprofile/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../../companyprofile/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../../companyprofile/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../../companyprofile/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assets/js/main.js"></script>
+  <script src="../../companyprofile/assets/js/main.js"></script>
 
 
   <!-- assets2 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets2/js/core/jquery.3.2.1.min.js"></script>
-	<script src="../assets2/js/core/popper.min.js"></script>
-	<script src="../assets2/js/core/bootstrap.min.js"></script>
+    <script src="../../companyprofile/assets2/js/core/jquery.3.2.1.min.js"></script>
+	<script src="../../companyprofile/assets2/js/core/popper.min.js"></script>
+	<script src="../../companyprofile/assets2/js/core/bootstrap.min.js"></script>
 	<!-- jQuery UI -->
-	<script src="../assets2/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-	<script src="../assets2/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	<script src="../../companyprofile/assets2/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="../../companyprofile/assets2/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
 	
 	<!-- jQuery Scrollbar -->
-	<script src="../assets2/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+	<script src="../../companyprofile/assets2/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 	<!-- Datatables -->
-	<script src="../assets2/js/plugin/datatables/datatables.min.js"></script>
+	<script src="../../companyprofile/assets2/js/plugin/datatables/datatables.min.js"></script>
 	<!-- Atlantis JS -->
-	<script src="../assets2/js/atlantis.min.js"></script>
+	<script src="../../companyprofile/assets2/js/atlantis.min.js"></script>
 	<!-- Atlantis DEMO methods, don't include it in your project! -->
 	<script >
 		$(document).ready(function() {
