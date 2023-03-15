@@ -1,7 +1,10 @@
 <?php
 
-$connect = mysqli_connect('localhost','root','','komin');
+$conn = mysqli_connect("localhost","root","","komin");
 
-if (!$connect)
+if (!$conn)
    
 exit('Gagal koneksi database..');
+
+
+?>

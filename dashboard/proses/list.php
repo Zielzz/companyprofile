@@ -73,7 +73,7 @@ include('../../companyprofile/config/connection.php');
 
 ///MEMED GANTENG///
 
-$query = mysqli_query($connect, "SELECT * FROM sign_in");
+$query = mysqli_query($conn, "SELECT * FROM sign_in");
 $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
 ?>
 

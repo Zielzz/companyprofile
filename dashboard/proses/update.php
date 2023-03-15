@@ -1,6 +1,6 @@
 <?php
 
-include('connection.php');
+include('../companyprofile/config/connection.php');
 
 $id = $_POST['id'];
 $nama = $_POST['nama'];
@@ -9,7 +9,7 @@ $umur = $_POST['umur'];
 $jenis_kelamin = $_POST['jenis_kelamin'];
 $email = $_POST['email'];
 
-$update = mysqli_query($connect, "UPDATE sign_in SET nama='$nama', alamat='$alamat', umur='$umur', jenis_kelamin='$jenis_kelamin',email='$email' WHERE id='$id' ");
+$update = mysqli_query($conn, "UPDATE sign_in SET nama='$nama', alamat='$alamat', umur='$umur', jenis_kelamin='$jenis_kelamin',email='$email' WHERE id='$id' ");
 
 if ($update)
     header('Location: list.php');

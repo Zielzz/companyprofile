@@ -54,7 +54,7 @@
           <li><a class="nav-link scrollto active" href="#">Home</a></li>
           <li><a class="nav-link scrollto" href="about.php">About</a></li>
           <li><a class="nav-link scrollto" href="../dashboard/proses/list.php">Data Siswa</a></li>
-          <li><a class="getstarted scrollto" href="forms/login.php">Login</a></li>
+          <li><a class="getstarted scrollto" href="login_system/login_form.php">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
